@@ -1,0 +1,193 @@
+Patient_ID,SEX,BMI_surg,Age,Run,Diabet,Simplified_class
+DLDR_0001,Female,35.21455464,55,SRR8378590,Non Diabetic,Normal
+DLDR_0002,Female,39.42174753,47,SRR8378589,Diabetic,Normal
+DLDR_0003,Male,48.75810811,46,SRR8378432,Non Diabetic,Normal
+DLDR_0004,Female,41.82260681,36,SRR8378431,Non Diabetic,Normal
+DLDR_0005,Female,53.58219218,54,SRR8378434,Non Diabetic,Normal
+DLDR_0006,Female,60.76753893,54,SRR8378433,Diabetic,Normal
+DLDR_0007,Female,49.81811933,46,SRR8378436,Non Diabetic,Normal
+DLDR_0008,Female,48.54075172,48,SRR8378435,Diabetic,Normal
+DLDR_0009,Female,42.71436543,47,SRR8378588,Non Diabetic,Normal
+DLDR_0010,Male,46.77807183,37,SRR8378587,Non Diabetic,Normal
+DLDR_0011,Female,41.212672,53,SRR8378490,Non Diabetic,Normal
+DLDR_0012,Female,39.16251967,44,SRR8378489,Non Diabetic,Normal
+DLDR_0013,Male,39.99046872,30,SRR8378488,Non Diabetic,Normal
+DLDR_0014,Female,44.30049642,60,SRR8378487,Non Diabetic,Normal
+DLDR_0015,Female,50.18293444,56,SRR8378494,Non Diabetic,Normal
+DLDR_0016,Female,43.25564354,40,SRR8378493,Non Diabetic,Normal
+DLDR_0017,Female,53.26805031,34,SRR8378492,Diabetic,Normal
+DLDR_0018,Male,55.09168056,46,SRR8378491,Diabetic,Normal
+DLDR_0019,Female,42.37009493,51,SRR8378592,Non Diabetic,Normal
+DLDR_0020,Female,38.72635887,46,SRR8378591,Non Diabetic,Normal
+DLDR_0021,Female,49.49857523,42,SRR8378571,Diabetic,Normal
+DLDR_0022,Female,46.65330385,60,SRR8378572,Non Diabetic,Normal
+DLDR_0023,Female,49.68055157,49,SRR8378569,Non Diabetic,Normal
+DLDR_0024,Male,55.52659204,34,SRR8378570,Non Diabetic,Normal
+DLDR_0025,Female,41.08842773,48,SRR8378575,Non Diabetic,Normal
+DLDR_0026,Male,46.92137557,25,SRR8378576,Non Diabetic,Normal
+DLDR_0027,Female,40.82691181,39,SRR8378573,Diabetic,Normal
+DLDR_0028,Female,43.48386816,36,SRR8378574,Non Diabetic,Normal
+DLDR_0029,Female,41.48464636,55,SRR8378567,Non Diabetic,Normal
+DLDR_0030,Female,35.54790152,45,SRR8378568,Diabetic,Normal
+DLDR_0031,Female,42.67663099,38,SRR8378538,Diabetic,Normal
+DLDR_0032,Female,57.83959961,54,SRR8378537,Diabetic,Normal
+DLDR_0033,Male,54.11665306,57,SRR8378540,Diabetic,Normal
+DLDR_0034,Male,46.2820765,39,SRR8378539,Non Diabetic,Normal
+DLDR_0035,Female,36.14431967,56,SRR8378542,Diabetic,Normal
+DLDR_0036,Female,47.40432315,44,SRR8378541,Non Diabetic,Normal
+DLDR_0037,Female,50.97436523,27,SRR8378544,Non Diabetic,Advanced_fibrosis
+DLDR_0038,Female,49.74401665,63,SRR8378543,Diabetic,Advanced_fibrosis
+DLDR_0039,Female,43.61450212,52,SRR8378536,Non Diabetic,Advanced_fibrosis
+DLDR_0040,Female,37.02208448,55,SRR8378535,Diabetic,Advanced_fibrosis
+DLDR_0041,Female,45.01554719,29,SRR8378579,Non Diabetic,Advanced_fibrosis
+DLDR_0042,Male,44.98865305,30,SRR8378580,Non Diabetic,Advanced_fibrosis
+DLDR_0043,Female,43.83259871,48,SRR8378581,Non Diabetic,Advanced_fibrosis
+DLDR_0044,Female,48.33768014,50,SRR8378582,Non Diabetic,Advanced_fibrosis
+DLDR_0045,Female,42.88725409,37,SRR8378583,Non Diabetic,Advanced_fibrosis
+DLDR_0046,Male,38.19477716,41,SRR8378584,Diabetic,Advanced_fibrosis
+DLDR_0047,Female,44.45665483,35,SRR8378585,Non Diabetic,Normal
+DLDR_0048,Female,42.85338622,48,SRR8378586,Non Diabetic,Normal
+DLDR_0049,Male,38.32450558,53,SRR8378577,Diabetic,Normal
+DLDR_0050,Female,49.50291667,54,SRR8378578,Non Diabetic,Normal
+DLDR_0051,Female,45.41525952,30,SRR8378554,Diabetic,Normal
+DLDR_0052,Female,38.49351749,38,SRR8378553,Non Diabetic,Normal
+DLDR_0053,Male,49.8989149,46,SRR8378552,Non Diabetic,Normal
+DLDR_0054,Female,44.93542722,64,SRR8378551,Diabetic,Normal
+DLDR_0055,Female,49.6387327,27,SRR8378550,Non Diabetic,Normal
+DLDR_0056,Female,45.70543325,36,SRR8378549,Non Diabetic,Normal
+DLDR_0057,Female,47.62155322,53,SRR8378548,Non Diabetic,Normal
+DLDR_0058,Female,44.44180037,39,SRR8378547,Non Diabetic,Normal
+DLDR_0059,Female,42.91269513,29,SRR8378546,Non Diabetic,Normal
+DLDR_0060,Female,38.30736484,57,SRR8378545,Diabetic,Normal
+DLDR_0061,Male,39.70648148,67,SRR8378473,Diabetic,Advanced_fibrosis
+DLDR_0062,Female,36.85753472,40,SRR8378474,Non Diabetic,Advanced_fibrosis
+DLDR_0063,Female,54.80792798,39,SRR8378471,Non Diabetic,Normal
+DLDR_0064,Female,30.49779412,35,SRR8378472,Non Diabetic,Normal
+DLDR_0065,Female,34.2909549,55,SRR8378469,Diabetic,Normal
+DLDR_0066,Female,39.93372781,48,SRR8378470,Non Diabetic,Normal
+DLDR_0067,Female,46.55867677,27,SRR8378467,Non Diabetic,Normal
+DLDR_0068,Female,37.55283203,48,SRR8378468,Non Diabetic,Normal
+DLDR_0069,Female,40.13600403,48,SRR8378475,Diabetic,Normal
+DLDR_0070,Female,42.24505739,32,SRR8378476,Non Diabetic,Normal
+DLDR_0071,Female,39.14411691,47,SRR8378452,Non Diabetic,Normal
+DLDR_0072,Female,39.28115479,36,SRR8378451,Non Diabetic,Normal
+DLDR_0073,Female,34.47184054,61,SRR8378454,Diabetic,Advanced_fibrosis
+DLDR_0074,Female,51.34811834,43,SRR8378453,Diabetic,Advanced_fibrosis
+DLDR_0075,Female,42.93067704,41,SRR8378448,Diabetic,Advanced_fibrosis
+DLDR_0076,Female,49.48719091,54,SRR8378447,Non Diabetic,Advanced_fibrosis
+DLDR_0077,Male,47.93181818,60,SRR8378450,Diabetic,Advanced_fibrosis
+DLDR_0078,Female,43.88435739,54,SRR8378449,Diabetic,Advanced_fibrosis
+DLDR_0079,Female,42.76806084,50,SRR8378456,Diabetic,Advanced_fibrosis
+DLDR_0080,Female,37.68259119,38,SRR8378455,Non Diabetic,Advanced_fibrosis
+DLDR_0081,Female,41.25367595,30,SRR8378509,Diabetic,Advanced_fibrosis
+DLDR_0082,Female,37.63535354,49,SRR8378510,Diabetic,Advanced_fibrosis
+DLDR_0083,Male,46.44627701,61,SRR8378511,Non Diabetic,Advanced_fibrosis
+DLDR_0084,Female,37.28030303,59,SRR8378512,Non Diabetic,Advanced_fibrosis
+DLDR_0085,Female,75.89620187,47,SRR8378505,Diabetic,Advanced_fibrosis
+DLDR_0086,Female,65.89698324,58,SRR8378506,Diabetic,Advanced_fibrosis
+DLDR_0087,Female,37.33211502,47,SRR8378507,Non Diabetic,Advanced_fibrosis
+DLDR_0088,Female,41.26274043,67,SRR8378508,Non Diabetic,Advanced_fibrosis
+DLDR_0089,Female,38.21162843,53,SRR8378513,Diabetic,Advanced_fibrosis
+DLDR_0090,Female,49.36681,62,SRR8378514,Non Diabetic,Advanced_fibrosis
+DLDR_0091,Female,72.77439906,49,SRR8378618,Diabetic,Advanced_fibrosis
+DLDR_0092,Female,59.39868875,32,SRR8378617,Non Diabetic,Advanced_fibrosis
+DLDR_0093,Male,37.05814286,44,SRR8378616,Non Diabetic,Advanced_fibrosis
+DLDR_0094,Female,49.3653838,63,SRR8378615,Diabetic,Advanced_fibrosis
+DLDR_0095,Female,62.52431343,60,SRR8378622,Diabetic,Advanced_fibrosis
+DLDR_0096,Female,47.60789304,55,SRR8378621,Diabetic,Advanced_fibrosis
+DLDR_0097,Female,46.62069137,41,SRR8378620,Diabetic,Advanced_fibrosis
+DLDR_0098,Female,41.8661267,57,SRR8378619,Diabetic,Advanced_fibrosis
+DLDR_0099,Female,41.5366144,50,SRR8378614,Diabetic,Advanced_fibrosis
+DLDR_0100,Female,37.85665973,55,SRR8378613,Non Diabetic,Advanced_fibrosis
+DLDR_0101,Male,91.10501995,49,SRR8378517,Diabetic,Advanced_fibrosis
+DLDR_0102,Male,48.26941819,53,SRR8378518,Non Diabetic,Advanced_fibrosis
+DLDR_0103,Male,53.58007755,53,SRR8378515,Diabetic,Advanced_fibrosis
+DLDR_0104,Female,40.47744071,69,SRR8378516,Diabetic,Advanced_fibrosis
+DLDR_0105,Female,60.51868597,56,SRR8378521,Diabetic,Advanced_fibrosis
+DLDR_0106,Female,53.22877231,47,SRR8378522,Diabetic,Advanced_fibrosis
+DLDR_0107,Female,61.59698542,28,SRR8378519,Non Diabetic,Advanced_fibrosis
+DLDR_0108,Female,39.20080349,54,SRR8378520,Diabetic,Advanced_fibrosis
+DLDR_0109,Male,52.34529321,42,SRR8378523,Non Diabetic,Advanced_fibrosis
+DLDR_0110,Female,47.88500977,57,SRR8378524,Diabetic,Advanced_fibrosis
+DLDR_0111,Female,44.63703004,48,SRR8378556,Diabetic,Advanced_fibrosis
+DLDR_0112,Female,42.33232552,51,SRR8378555,Non Diabetic,Advanced_fibrosis
+DLDR_0113,Male,43.21064194,32,SRR8378558,Diabetic,Advanced_fibrosis
+DLDR_0114,Female,43.427919,49,SRR8378557,Diabetic,Advanced_fibrosis
+DLDR_0115,Male,62.66148649,46,SRR8378560,Diabetic,Advanced_fibrosis
+DLDR_0116,Female,45.30359954,45,SRR8378559,Diabetic,Advanced_fibrosis
+DLDR_0117,Male,47.07090937,62,SRR8378562,Diabetic,Advanced_fibrosis
+DLDR_0118,Female,55.35667794,46,SRR8378561,Diabetic,Advanced_fibrosis
+DLDR_0119,Female,54.57609468,36,SRR8378564,Diabetic,Advanced_fibrosis
+DLDR_0120,Male,60.43987,32,SRR8378563,Diabetic,Advanced_fibrosis
+DLDR_0121,Female,53.9715145,36,SRR8378605,Non Diabetic,Advanced_fibrosis
+DLDR_0122,Male,45.11986319,51,SRR8378606,Non Diabetic,Advanced_fibrosis
+DLDR_0123,Male,62.15191198,51,SRR8378607,Diabetic,Advanced_fibrosis
+DLDR_0124,Female,49.75076923,48,SRR8378608,Diabetic,Advanced_fibrosis
+DLDR_0125,Female,45.90497401,45,SRR8378609,Diabetic,Non_advanced_Fibrosis
+DLDR_0126,Female,46.44616911,63,SRR8378610,Diabetic,Non_advanced_Fibrosis
+DLDR_0127,Female,40.89536272,43,SRR8378611,Diabetic,Non_advanced_Fibrosis
+DLDR_0128,Female,41.20091641,24,SRR8378612,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0129,Female,41.30689853,65,SRR8378603,Diabetic,Non_advanced_Fibrosis
+DLDR_0130,Female,56.12329102,27,SRR8378604,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0131,Female,46.10750413,39,SRR8378502,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0132,Female,45.43068848,32,SRR8378501,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0133,Female,56.52565427,45,SRR8378500,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0134,Female,77.92041016,50,SRR8378499,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0135,Female,44.09349112,39,SRR8378498,Diabetic,Non_advanced_Fibrosis
+DLDR_0136,Female,62.5811432,27,SRR8378497,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0137,Female,46.93574452,65,SRR8378496,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0138,Female,43.40277641,33,SRR8378495,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0139,Female,53.40194627,33,SRR8378504,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0140,Female,57.48501003,28,SRR8378503,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0141,Female,56.46655273,47,SRR8378485,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0142,Female,49.84916772,38,SRR8378486,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0143,Female,48.34645329,35,SRR8378483,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0144,Male,55.64312636,34,SRR8378484,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0145,Female,46.04188015,31,SRR8378481,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0146,Male,38.10343195,37,SRR8378482,Diabetic,Non_advanced_Fibrosis
+DLDR_0147,Female,51.82672222,54,SRR8378479,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0148,Female,56.05031479,23,SRR8378480,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0149,Male,51.83824391,45,SRR8378477,Diabetic,Non_advanced_Fibrosis
+DLDR_0150,Female,46.52764275,34,SRR8378478,Diabetic,Non_advanced_Fibrosis
+DLDR_0151,Female,53.75427662,34,SRR8378600,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0152,Female,43.78546713,51,SRR8378599,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0153,Female,44.76286281,67,SRR8378602,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0154,Female,42.12213992,65,SRR8378601,Diabetic,Non_advanced_Fibrosis
+DLDR_0155,Male,39.32425177,56,SRR8378596,Diabetic,Non_advanced_Fibrosis
+DLDR_0156,Female,59.62456055,34,SRR8378595,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0157,Female,51.93860562,58,SRR8378598,Diabetic,Non_advanced_Fibrosis
+DLDR_0158,Female,56.10143621,58,SRR8378597,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0159,Female,42.73608398,48,SRR8378594,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0160,Female,37.90791743,20,SRR8378593,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0161,Female,42.28335932,55,SRR8378441,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0162,Female,57.37672515,50,SRR8378442,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0163,Female,55.66940687,57,SRR8378443,Diabetic,Non_advanced_Fibrosis
+DLDR_0164,Female,43.78546713,68,SRR8378444,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0165,Female,55.5962539,32,SRR8378437,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0166,Male,55.25685983,41,SRR8378438,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0167,Female,35.11772268,36,SRR8378439,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0168,Female,48.3034112,62,SRR8378440,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0169,Female,47.79585654,33,SRR8378445,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0170,Female,44.43654321,46,SRR8378446,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0171,Male,56.07544138,33,SRR8378460,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0172,Male,53.55127951,39,SRR8378459,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0173,Female,40.62494653,50,SRR8378458,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0174,Female,40.48281657,34,SRR8378457,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0175,Male,49.71776615,35,SRR8378464,Non Diabetic,Non_advanced_Fibrosis
+DLDR_0176,Female,43.07408173,53,SRR8378463,Diabetic,Non_advanced_Fibrosis
+DLDR_0177,Female,40.04275451,51,SRR8378462,Diabetic,Non_advanced_Fibrosis
+DLDR_0178,Female,55.43161865,50,SRR8378461,Non Diabetic,Normal
+DLDR_0179,Female,43.58908936,42,SRR8378466,Non Diabetic,Normal
+DLDR_0180,Female,48.88561295,37,SRR8378465,Diabetic,Normal
+DLDR_0181,Male,46.83148808,21,SRR8378529,Non Diabetic,Advanced_fibrosis
+DLDR_0182,Female,38.14670926,60,SRR8378530,Non Diabetic,Normal
+DLDR_0183,Female,45.18336484,49,SRR8378527,Diabetic,Normal
+DLDR_0184,Male,50.81042433,24,SRR8378528,Non Diabetic,Normal
+DLDR_0185,Female,46.05938349,27,SRR8378533,Non Diabetic,Normal
+DLDR_0186,Female,42.18499172,24,SRR8378534,Non Diabetic,Normal
+DLDR_0187,Female,37.9442408,49,SRR8378531,Diabetic,Normal
+DLDR_0188,Male,40.21617287,59,SRR8378532,Diabetic,Normal
+DLDR_0189,Female,50.07760092,52,SRR8378525,Non Diabetic,Normal
+DLDR_0190,Male,104.921344,28,SRR8378526,Diabetic,Normal
+DLDR_0191,Female,47.4950692,36,SRR8378566,Non Diabetic,Normal
+DLDR_0192,Female,45.41822091,53,SRR8378565,Non Diabetic,Normal
