@@ -1,0 +1,205 @@
+
+R version 4.4.0 (2024-04-24 ucrt) -- "Puppy Cup"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #Homework2 Question3
+> #Seyyed Amirreza Mousavi Majd
+> #St. No. -> 610799001
+> 
+> ##Initialization
+> library(factoextra)
+Loading required package: ggplot2
+Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
+> library(ggplot2)
+> anno_df = read.csv("Leaf_Root_annotation.csv")
+> anno_df[,1]=NULL
+> 
+> xp_raw_df = read.csv("Leaf_Root_raw_data.csv")
+> xp_raw_df[,1]=NULL
+> 
+> xp_norm_df = read.csv("Leaf_Root_normalized_data.csv")
+> xp_norm_df[,1]=NULL
+> 
+> get_tissue_from_SRR=function(srr){
++   return(anno_df[which(anno_df$Sample==srr),4])
++ }
+> 
+> get_project_from_SRR=function(srr){
++   return(anno_df[which(anno_df$Sample==srr),1])
++ }
+> 
+> 
+> ##clustering is performed using kmeans clustering
+> 
+> calc_label_df = function(df, k_of_cluster){
++   k_labels=kmeans(t(df),centers = k_of_cluster)$cluster
++   
++   res_df = data.frame(kmeans_label = k_labels, 
++                       project_label = get_project_from_SRR(names(k_labels)),
++                       tissue_label = get_tissue_from_SRR(names(k_labels))
++   )
++   return(res_df)
++ }
+> 
+> pca_study = function (df,tag){
++   
++   pca_df=prcomp(t(df))
++   
++   pc1 = pca_df$x[,"PC1"]
++   pc2 = pca_df$x[,"PC2"]
++   
++   print(ggplot()+
++     geom_point(aes(x=pc1,y=pc2,color = get_project_from_SRR(names(pc1)))) + 
++     ggtitle(paste("PCA colored by project for",tag)))
++   
++   print(ggplot()+
++     geom_point(aes(x=pc1,y=pc2,color = get_tissue_from_SRR(names(pc1)))) +
++     ggtitle(paste("PCA colored by tissue for",tag)))
++   
++ }
+> 
+> ##a
+> 
+> print(calc_label_df(xp_raw_df,k_of_cluster = 2))
+            kmeans_label project_label tissue_label
+SRR10913924            2   PRJNA493167         Leaf
+SRR10913925            2   PRJNA493167         Leaf
+SRR10913926            2   PRJNA493167         Leaf
+SRR10913927            2   PRJNA493167         Leaf
+SRR10913928            2   PRJNA493167         Root
+SRR10913929            2   PRJNA493167         Root
+SRR10913932            2   PRJNA493167         Root
+SRR10913933            2   PRJNA493167         Root
+SRR14089425            1   PRJNA661543         Leaf
+SRR14089432            1   PRJNA661543         Root
+SRR14089433            1   PRJNA661543         Leaf
+SRR14089434            1   PRJNA661543         Leaf
+SRR14089435            1   PRJNA661543         Root
+SRR14089436            1   PRJNA661543         Root
+SRR14744742            2   PRJNA730337         Root
+SRR14744743            2   PRJNA730337         Root
+SRR14744744            2   PRJNA730337         Root
+SRR14744745            2   PRJNA730337         Leaf
+SRR14744746            2   PRJNA730337         Leaf
+SRR14744747            2   PRJNA730337         Leaf
+SRR14744755            2   PRJNA730337         Leaf
+SRR14744756            2   PRJNA730337         Leaf
+SRR14744757            2   PRJNA730337         Leaf
+SRR14744761            2   PRJNA730337         Root
+SRR14744763            2   PRJNA730337         Root
+SRR14744764            2   PRJNA730337         Root
+> 
+> print(calc_label_df(xp_raw_df,k_of_cluster = 3))
+            kmeans_label project_label tissue_label
+SRR10913924            3   PRJNA493167         Leaf
+SRR10913925            3   PRJNA493167         Leaf
+SRR10913926            3   PRJNA493167         Leaf
+SRR10913927            3   PRJNA493167         Leaf
+SRR10913928            3   PRJNA493167         Root
+SRR10913929            3   PRJNA493167         Root
+SRR10913932            3   PRJNA493167         Root
+SRR10913933            3   PRJNA493167         Root
+SRR14089425            2   PRJNA661543         Leaf
+SRR14089432            2   PRJNA661543         Root
+SRR14089433            2   PRJNA661543         Leaf
+SRR14089434            2   PRJNA661543         Leaf
+SRR14089435            2   PRJNA661543         Root
+SRR14089436            2   PRJNA661543         Root
+SRR14744742            1   PRJNA730337         Root
+SRR14744743            1   PRJNA730337         Root
+SRR14744744            1   PRJNA730337         Root
+SRR14744745            2   PRJNA730337         Leaf
+SRR14744746            2   PRJNA730337         Leaf
+SRR14744747            2   PRJNA730337         Leaf
+SRR14744755            2   PRJNA730337         Leaf
+SRR14744756            2   PRJNA730337         Leaf
+SRR14744757            2   PRJNA730337         Leaf
+SRR14744761            1   PRJNA730337         Root
+SRR14744763            1   PRJNA730337         Root
+SRR14744764            1   PRJNA730337         Root
+> 
+> print(calc_label_df(xp_norm_df,k_of_cluster = 2))
+            kmeans_label project_label tissue_label
+SRR10913924            1   PRJNA493167         Leaf
+SRR10913925            1   PRJNA493167         Leaf
+SRR10913926            1   PRJNA493167         Leaf
+SRR10913927            1   PRJNA493167         Leaf
+SRR10913928            2   PRJNA493167         Root
+SRR10913929            2   PRJNA493167         Root
+SRR10913932            2   PRJNA493167         Root
+SRR10913933            2   PRJNA493167         Root
+SRR14089425            1   PRJNA661543         Leaf
+SRR14089432            2   PRJNA661543         Root
+SRR14089433            1   PRJNA661543         Leaf
+SRR14089434            1   PRJNA661543         Leaf
+SRR14089435            2   PRJNA661543         Root
+SRR14089436            2   PRJNA661543         Root
+SRR14744742            2   PRJNA730337         Root
+SRR14744743            2   PRJNA730337         Root
+SRR14744744            2   PRJNA730337         Root
+SRR14744745            1   PRJNA730337         Leaf
+SRR14744746            1   PRJNA730337         Leaf
+SRR14744747            1   PRJNA730337         Leaf
+SRR14744755            1   PRJNA730337         Leaf
+SRR14744756            1   PRJNA730337         Leaf
+SRR14744757            1   PRJNA730337         Leaf
+SRR14744761            2   PRJNA730337         Root
+SRR14744763            2   PRJNA730337         Root
+SRR14744764            2   PRJNA730337         Root
+> 
+> print(calc_label_df(xp_norm_df,k_of_cluster = 3))
+            kmeans_label project_label tissue_label
+SRR10913924            2   PRJNA493167         Leaf
+SRR10913925            2   PRJNA493167         Leaf
+SRR10913926            2   PRJNA493167         Leaf
+SRR10913927            2   PRJNA493167         Leaf
+SRR10913928            1   PRJNA493167         Root
+SRR10913929            3   PRJNA493167         Root
+SRR10913932            1   PRJNA493167         Root
+SRR10913933            1   PRJNA493167         Root
+SRR14089425            2   PRJNA661543         Leaf
+SRR14089432            3   PRJNA661543         Root
+SRR14089433            2   PRJNA661543         Leaf
+SRR14089434            2   PRJNA661543         Leaf
+SRR14089435            3   PRJNA661543         Root
+SRR14089436            3   PRJNA661543         Root
+SRR14744742            1   PRJNA730337         Root
+SRR14744743            1   PRJNA730337         Root
+SRR14744744            1   PRJNA730337         Root
+SRR14744745            2   PRJNA730337         Leaf
+SRR14744746            2   PRJNA730337         Leaf
+SRR14744747            2   PRJNA730337         Leaf
+SRR14744755            2   PRJNA730337         Leaf
+SRR14744756            2   PRJNA730337         Leaf
+SRR14744757            2   PRJNA730337         Leaf
+SRR14744761            1   PRJNA730337         Root
+SRR14744763            1   PRJNA730337         Root
+SRR14744764            1   PRJNA730337         Root
+> 
+> 
+> 
+> ##b
+> pdf("graphical_results_q3_b.pdf")
+> pca_study(xp_raw_df,"raw dataset")
+> 
+> pca_study(xp_norm_df,"normalized dataset")
+> 
+> dev.off()
+null device 
+          1 
+> 
